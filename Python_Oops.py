@@ -1,4 +1,4 @@
-#Object orientend programming language(Oops)
+#Object-Oriented Programming (OOPS)
 
 #Class         =>Blue Print of the object
 #object        => instance of the class
@@ -6,8 +6,8 @@
 #Polymorphism  => Many forms
 #Encapsulation => Hiding the data
 #Abstraction   => Hiding the implementation details
-#Polymarphisam => Compile time polymorphism
-#Encapsulation => Public
+#Polymarphisam => Many forms
+#Encapsulation => wrapping of variables  and methods into a single unit
 
 #Inheritance
 #1)single
@@ -61,7 +61,74 @@ obj=Child()
 obj.add()
 obj.sub() 
 obj.mul()
-        
+
+#4)Hierarchical Inheritance
+class Parent:
+    def add(self):
+        print("This is parent class")
+class Child1(Parent):
+    def sub(self):
+        print("This is child1 class")
+class Child2(Parent):
+    def mul(self):
+        print("This is child2 class")
+obj=Child1()
+obj.add()
+obj.sub()    
+obj1=Child2()
+obj1.add()
+obj1.mul()
+
+#5)Hybrid Inheritance 
+   
+class Parent:
+    def sum(self):
+        print("This is parent class")
+class Child1(Parent):
+    def sub(self):
+        print("This is child1 class")
+class Child2(Parent):
+    def mul(self):
+        print("This is child2 class")
+class GrandChild(Child1):
+    def div(self):
+        print("This is grand child class")
+obj=GrandChild()
+obj.sum()
+obj.sub()
+obj.div()
+
+
+
+#Polymorphism
+#1)Method Overloading
+#2)Method Overriding
+
+#1)Method Overloading
+#Method Overloading => Same method name with different arguments
+
+class Parent():
+    def add(self,a,b):
+        return a+b
+    
+obj=Parent()
+print(obj.add(10,20))
+print(obj.add("Madhu","Kiran"))
+print(obj.add(10.5,20.5))
+
+
+#2)Method Overriding
+#Method Overriding => Same method name with same arguments
+class Parent():
+    def add(self,a,b):
+        return a+b
+class Child(Parent):
+    def add(self,a,b,c):
+        return a+b+c
+obj=Child()
+print(obj.add(10,20,30))
+print(obj.add("Madhu","Kiran","Kumar"))
+
 
 
 
