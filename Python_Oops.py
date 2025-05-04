@@ -62,6 +62,8 @@
 # obj.sub() 
 # obj.mul()
 
+
+
 #4)Hierarchical Inheritance
 # class Parent:
 #     def add(self):
@@ -78,11 +80,7 @@
 # obj1=Child2()
 # obj1.add()
 # obj1.mul()
-
-
-
-#5)Hybrid Inheritance 
-   
+#5)Hybrid Inheritance    
 # class Parent:
 #     def sum(self):
 #         print("This is parent class")
