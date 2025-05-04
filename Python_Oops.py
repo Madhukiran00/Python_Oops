@@ -115,8 +115,6 @@
 # print(obj.add(10,20))
 # print(obj.add("Madhu","Kiran"))
 # print(obj.add(10.5,20.5))
-
-
 #2)Method Overriding
 #Method Overriding => Same method name with same arguments
 # class Parent():
