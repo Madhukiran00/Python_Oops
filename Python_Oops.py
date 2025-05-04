@@ -79,6 +79,8 @@
 # obj1.add()
 # obj1.mul()
 
+
+
 #5)Hybrid Inheritance 
    
 # class Parent:
