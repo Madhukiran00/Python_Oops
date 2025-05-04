@@ -44,8 +44,6 @@
 # obj.add()
 # obj.sub()
 # obj.mul()
-
-
 #3)Multiple Inheritance
 # class Parent1:
 #     def add(self):
