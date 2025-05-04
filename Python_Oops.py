@@ -56,14 +56,10 @@
 # class Child:
 #     def mul(self):
 #         print("This is child class")
-
 # obj=Child()
 # obj.add()
 # obj.sub() 
 # obj.mul()
-
-
-
 #4)Hierarchical Inheritance
 # class Parent:
 #     def add(self):
