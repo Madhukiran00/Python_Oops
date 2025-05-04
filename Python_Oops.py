@@ -97,9 +97,6 @@
 # obj.sum()
 # obj.sub()
 # obj.div()
-
-
-
 #Polymorphism
 #1)Method Overloading
 #2)Method Overriding
