@@ -31,8 +31,6 @@
 #2)Multilevel Inheritance
 
 
-
-
 # class Parent:
 #     def add(self):
 #         print("This is parent class")
