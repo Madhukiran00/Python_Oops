@@ -9,6 +9,8 @@
 #Polymarphisam => Many forms
 #Encapsulation => wrapping of variables  and methods into a single unit
 
+
+
 #Inheritance
 #1)single
 #2)Multilevel
